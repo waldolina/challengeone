@@ -17,6 +17,81 @@
  *= require_self
  */
 
-.header {
-  color:red;
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:600,900';
+.clear {
+  clear: both;
+}
+
+.box-1 {
+  background: rgba(255,255,255,1);
+  position:absolute;
+  top:135px;
+  border-top:1px solid black;
+  z-index:1;
+}
+
+.box-2{
+  background: rgba(255,255,255,1);
+  position:absolute;
+  border-top:1px solid black;
+  top:232px;
+  z-index:2;
+}
+
+.box-3{
+  background: rgba(255,255,255,1);
+  position:absolute;
+  border-top:1px solid black;
+  top:330px;
+  z-index:3;
+}
+
+.box-4{
+  background: rgba(255,255,255,1);
+  position:absolute;
+  border-top: 1px solid black;
+  top:430px;
+  z-index:4;
+}
+
+p {
+  font-family:Work Sans;
+  font-weight:600;
+  margin-top:20px;
+  color:#CDB380;
+}
+
+h1 {
+  font-family:Work Sans;
+  font-weight:900;
+  font-size: 100px;
+  line-height:90px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.news-1 a {
+  color:#0B486B;
+}
+
+.news-2 a {
+  color:#3B8686;
+}
+
+.news-3 a {
+  color:#79BD9A;
+}
+
+.news-4 a {
+  color:#A8DBA8;
+}
+
+.news-5 a {
+  color:#CFF09E;
+}
+
+a:hover {
+  color:#CDB380;
 }
